@@ -1,6 +1,6 @@
-/* * {
+* {
   margin: 0;
-} */
+}
 
 body {
   background-color: rgb(224, 251, 252); 
@@ -11,7 +11,56 @@ h1 {
   color: rgb(238, 108, 77);
   font-size: 50px;
   background: rgb(41, 50, 65);
+  text-align: center;
+  /* font-stretch:extra-condensed; */
 }
+
+#face-photo {
+  position: relative;
+  padding: 10px 35px;
+  /* left: 10px; */
+  /* top: 10px; */
+  background-color: #98C1D9;
+}
+[title] {
+  border-radius: 7%;
+}
+
+#local {
+  background-color: #ee6d4d9a;
+  color: #3D5A80;
+  text-align: center;
+}
+
+#about {
+  position: absolute;
+  top: 115px;
+  left: 320px;
+  right: 35px;
+}
+
+#nav-menu {
+  position: absolute;
+  top: 500px;
+  left: 15px;
+}
+
+#skills {
+  position: absolute;
+  top: 580px;
+  padding: 10px;
+}
+#contact-info {
+  position: absolute;
+  top: 780px;
+  padding: 10px;
+}
+
+#links {
+  position: absolute;
+  top: 930px;
+  padding: 10px;
+} 
 
 #skills-list {
   line-height: 0.9cm;
